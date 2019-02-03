@@ -1,4 +1,6 @@
+include ../cities-list/cities-list
+
 mixin index-page
   body.index-page
-    h1 Hello world
+    +cities-list()
     script(src="assets/javascripts/app.bundle.js")
