@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Arima Madurai';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arima Madurai'), local('ArimaMadurai-Regular'), url("../fonts/arima-madurai-v4-latin-regular.woff2") format('woff2'), url("../fonts/arima-madurai-v4-latin-regular.woff") format('woff');
+}
+.cities-list {
+  font-size: 20px;
+  font-family: 'Arima Madurai', cursive;
+  min-width: 400px;
+  margin: 30px auto;
+}
+.cities-list__input {
+  box-sizing: border-box;
+  width: 95%;
+  border: 5px solid #eee;
+  background-color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  font: inherit;
+}
+.cities-list__suggestions {
+  padding: 0;
+  margin: 0;
+  width: 95%;
+  position: relative;
+}
+.cities-list__suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px 10px;
+  list-style: none;
+  border-bottom: 2px solid #f7f7f7;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.14);
+}
+.cities-list__city-population {
+  font-size: 14px;
+}
+.index-page {
+  margin: 0;
+  padding: 0;
+  background-color: #fc0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Arima Madurai', cursive;
+}
